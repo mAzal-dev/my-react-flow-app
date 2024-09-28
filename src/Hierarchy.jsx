@@ -83,6 +83,7 @@ export default function Hierarchy() {
           nodes={layoutedNodes}
           edges={layoutedEdges}
           nodeTypes={nodeTypes} // Pass custom node type
+          fitView
         />
       </div>
     </div>
